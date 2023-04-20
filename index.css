@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/modern-typewriter');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: beige;
+}
+
+.top {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'MODERN TYPEWRITER', sans-serif;
+    background-color: rgb(247, 220, 185);
+}
+
+.top>.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100vw;
+}
+
+.top > .right > a {
+    margin: 0 10px 0 10px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.main {
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.bottom {
+    padding: 10px;
+    position: fixed;
+    font-family: 'MODERN TYPEWRITER', sans-serif;
+    background-color: rgb(247, 220, 185);
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+
+    padding: 35px 0;
+}
+
+.seperator {
+    border: 1px solid black;
+    height: 0.0001px;
+    width: 369px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.invisible {
+    color: transparent
+}
+
+.members {
+    margin-left: 1.5rem;
+}
+
+.members > * > * {
+    text-decoration: none;
+}
+
+.article {
+    margin-bottom: 1.5rem;
+}
